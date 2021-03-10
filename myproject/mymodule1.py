@@ -13,5 +13,3 @@ def myfunc1(x: float) -> float:
 def myfunc2(l: list) -> int:
     """returns len of list"""
     return len(l)
-
-print("----------- mymodule executed --------------")
