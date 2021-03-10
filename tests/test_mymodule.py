@@ -2,7 +2,8 @@ import os.path
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-import myproject.mymodule as mym
+#import myproject.mymodule as mym
+from main import mymodule as mym
 import pytest
 
 # pytest --cov=myproject tests/
