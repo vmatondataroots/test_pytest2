@@ -33,4 +33,4 @@ def test_myfunc2(get_data):
 
 
 
-
+print("----------- test_mymodule executed --------------")
